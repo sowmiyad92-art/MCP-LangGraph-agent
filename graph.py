@@ -239,3 +239,5 @@ def build_graph():
     graph.add_edge("mcp", END)
 
     return graph.compile()
+graph = build_graph()
+    
